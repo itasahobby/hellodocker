@@ -15,7 +15,7 @@ Run a container:
 docker run --rm -it dockerhello
 ```
 
-We can also use `docker inspect` to check the details of the image generated, here is the file system layout:
+We can also use `docker inspect` to check the details of the image generated, here is the layer layout:
 ```
 ...
         "RootFS": {
