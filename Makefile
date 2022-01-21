@@ -1,5 +1,5 @@
-tag=dockereader
-entypoint=reader
+tag=dockerhello
+entypoint=hello
 
 clean:
 	rm ${entypoint}.o

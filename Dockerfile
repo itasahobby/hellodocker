@@ -1,5 +1,5 @@
 FROM scratch
 
-COPY reader /
+COPY hello /
 
-CMD ["/reader"]
+CMD ["/hello"]
