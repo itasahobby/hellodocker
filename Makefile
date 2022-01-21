@@ -10,5 +10,6 @@ compile: ${entypoint}.asm
 
 build:
 	docker build -t ${tag} .
+	rm ${entypoint}
 
 install: compile clean build
