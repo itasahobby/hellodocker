@@ -1,0 +1,55 @@
+{
+    "defaultAction": "SCMP_ACT_ERRNO",
+    "architectures": [
+      "SCMP_ARCH_X86_64"
+    ],
+    "syscalls": [
+      {
+        "names": [
+          "brk",
+          "capget",
+          "capset",
+          "chdir",
+          "close",
+          "dup3",
+          "epoll_ctl",
+          "epoll_pwait",
+          "execve",
+          "exit",
+          "fchdir",
+          "fchown",
+          "fcntl",
+          "fstat",
+          "fstatfs",
+          "futex",
+          "getdents64",
+          "getpid",
+          "getppid",
+          "mount",
+          "nanosleep",
+          "newfstatat",
+          "openat",
+          "pipe2",
+          "pivot_root",
+          "prctl",
+          "read",
+          "rt_sigreturn",
+          "seccomp",
+          "setgid",
+          "setgroups",
+          "sethostname",
+          "setuid",
+          "statfs",
+          "tgkill",
+          "umask",
+          "umount2",
+          "write"
+        ],
+        "action": "SCMP_ACT_ALLOW",
+        "args": [],
+        "comment": "",
+        "includes": {},
+        "excludes": {}
+      }
+    ]
+  }
